@@ -15,23 +15,24 @@ margin-left: auto;
 margin-right: auto;
 display: flex;
 flex-direction: column;
-
-  
 }
+
 
 .main_container{
    
     display: flex;
     flex-wrap: wrap;
-    margin-top: 20px;
+    margin-top: 5px;
     font-size: large;
+    justify-content: center;
+
 }
 .main_container h1{
     width: 10 em;
+   
 }
 .main_container img{
-    margin-left: 50px; 
-   
+    margin-left: 50px;  
 }
 
 .middle_container{
@@ -40,7 +41,7 @@ flex-direction: column;
 }
 .middle_container h2{
     text-align: left;
-    font-size: x-large
+    font-size: large
 }
 .section{
     display: flex;
@@ -59,10 +60,14 @@ font-size: medium;
 text-align: justify;
 
 }
+.paragraph{
+    /* text-align: center; */
+    justify-content: center;
+}
 
 table, th, td{
     text-align: center;
-      width: 500px;
+      width: 1200px;
        border-collapse: collapse;
        margin-bottom: 20px;
        margin-top: 20px;
@@ -87,6 +92,7 @@ table, th, td{
 .last_container{
     
     font-size: large;
+    text-align: center;
 }
 
 
@@ -94,12 +100,14 @@ table, th, td{
    
     margin-bottom: 20px;
     font-size: larger;
-    font-style: normal;  
+    font-style: normal; 
+    text-align: center; 
+   
       
  }
 .sixth{
     display: flex;
-    /* object-position: 10px; */
+  
 }
 .sixth p{
 
@@ -118,6 +126,7 @@ table, th, td{
     margin-bottom: 20px;
     font-size: medium;
     font-style: normal;  
+    text-align: center;
        
 }
 .hall{
@@ -150,7 +159,8 @@ table, th, td{
 .castle h6{
     margin-bottom: 20px;
     font-size: medium;
-    font-style: normal;   
+    font-style: normal; 
+    text-align: center;  
        
 }
 
@@ -177,13 +187,11 @@ table, th, td{
     overflow: auto;
     zoom: 1;
     padding:1em;
+
     background-color: blanchedalmond;
   
 } 
-/* 
-@media only screen and (max-width: 700px){
-   
-}  */
+
 @media screen and (max-width: 700px){
     .Secondpara{
         flex-direction: column;   
@@ -192,14 +200,13 @@ table, th, td{
     .sixth{
         display: flex;
         flex-direction: row-reverse;
-        /* flex-direction: column;   */
-        /* float: right; */
+       
 
     }
     .good{
         display: flex;
         flex-direction: row-reverse;
-        /* flex-direction: column; */
+       
     }
     .section{
         flex-direction: column;
