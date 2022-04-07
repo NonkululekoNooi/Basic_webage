@@ -2,9 +2,8 @@ body{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-color: rgb(192, 219, 219);
-
+  background-color: bisque;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .container{
@@ -61,13 +60,13 @@ text-align: justify;
 
 }
 .paragraph{
-    /* text-align: center; */
+    
     justify-content: center;
 }
 
 table, th, td{
     text-align: center;
-      width: 1200px;
+      width: 970px;
        border-collapse: collapse;
        margin-bottom: 20px;
        margin-top: 20px;
@@ -76,9 +75,10 @@ table, th, td{
      th,td{
       border:0.5px  solid black;
     padding-left: 20px;
+    align-items: center;
     }
     .columns { 
-    width: 500px;
+    
     margin-bottom: 40px;
     }
 
@@ -112,9 +112,9 @@ table, th, td{
   
 }
 .sixth p{
-
+margin-top: 5px;
   margin-left: 10px;
-  font-size: medium;
+  font-size:medium;
  
 
 }
@@ -139,8 +139,9 @@ table, th, td{
     
 }
 .hall p{
-  
+  font-size: medium;
     margin-left: 30px;
+    margin-top: 5px;
 }
 
 .castle{
@@ -158,6 +159,8 @@ table, th, td{
 }
 .good p{
     margin-left: 10px;
+    font-size: medium;
+    margin-top: 5px;
 }
 .castle h6{
     margin-bottom: 20px;
@@ -191,26 +194,32 @@ table, th, td{
     zoom: 1;
     padding:1em;
 
-    background-color: blanchedalmond;
+    /* background-color: blanchedalmond; */
   
 } 
 
 @media screen and (max-width: 700px){
     .Secondpara{
+        display: block;
         flex-direction: column;   
         justify-content: space-between;
     }
+    .middle_container img{
+    align-items: center;
+    }
 
-    .sixth{
-        display: flex;
-        flex-direction: row-reverse;
+    .sixth img{
+
+        float: left;
+        /* flex-direction: row-reverse; */
     }
     .sixth p{
-        justify-content: space-between;
+        /* justify-content: space-between; */
         padding-right: 30px;
+        
     }
     .good{
-        display: flex;
+        float: right;
         flex-direction: row-reverse;
         
        
@@ -223,18 +232,24 @@ table, th, td{
        
     }
     .section img{
-        /* padding-right: 150px;z */
-        width: 250px;
+        
+        width: 70%;
     }
     body{
-        background-color: rgb(176, 182, 128);
+        background-color: rgb(219, 238, 132);
 
     }
     table, th, td{
-        width: 300px;;
+        width: 320px;
+        text-align: center;
     }
     .main_container{
         flex-direction: column;
+    }
+    .city{
+        float: left;
+        flex-wrap: wrap-reverse;
+
     }
 }
 
