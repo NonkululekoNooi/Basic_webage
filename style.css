@@ -7,8 +7,7 @@ body{
 }
 
 .container{
-/* margin: 50px; */
-/* padding: 50px; */
+
 width: 90%;
 margin-left: auto;
 margin-right: auto;
@@ -22,7 +21,7 @@ flex-direction: column;
     display: flex;
     flex-wrap: wrap;
     margin-top: 5px;
-    font-size: large;
+  
     justify-content: center;
 
 }
@@ -40,7 +39,7 @@ flex-direction: column;
 }
 .middle_container h2{
     text-align: left;
-    font-size: large
+    font-size: medium;
 }
 .section{
     display: flex;
@@ -54,7 +53,7 @@ flex-direction: column;
 }
 
 .section p{
-margin-left: 8px;
+margin-left: 5px;
 font-size: medium;
 text-align: justify;
 
@@ -70,6 +69,8 @@ table, th, td{
        border-collapse: collapse;
        margin-bottom: 20px;
        margin-top: 20px;
+       margin-left: auto;
+       margin-right: auto;
     }
     
      th,td{
@@ -194,7 +195,7 @@ margin-top: 5px;
     zoom: 1;
     padding:1em;
 
-    /* background-color: blanchedalmond; */
+   
   
 } 
 
@@ -208,31 +209,36 @@ margin-top: 5px;
     align-items: center;
     }
 
-    .sixth img{
-
-        float: left;
-        /* flex-direction: row-reverse; */
+    .sixth{
+        float: right;
+        flex-direction: row-reverse;
+    
     }
+
+    .clearfix img{
+        padding-left: 20px;
+    }
+    
     .sixth p{
-        /* justify-content: space-between; */
+       
         padding-right: 30px;
         
     }
+
     .good{
         float: right;
         flex-direction: row-reverse;
-        
-       
     }
+
     .good p{
         padding-right: 30px;
     }
+
     .section{
         flex-direction: column;
        
     }
     .section img{
-        
         width: 70%;
     }
     body{
@@ -242,6 +248,8 @@ margin-top: 5px;
     table, th, td{
         width: 320px;
         text-align: center;
+        margin-right: auto;
+        margin-left: auto;
     }
     .main_container{
         flex-direction: column;
@@ -251,6 +259,6 @@ margin-top: 5px;
         flex-wrap: wrap-reverse;
 
     }
+
+
 }
-
-
